@@ -1,17 +1,8 @@
 @import "./normalize.css";
-/* html,ul,li,h1,h2,h3,h4,h5,h6 {
-    padding: 0;
-    margin: 0;
-    font-weight: 400;
-} */
 a {
-    /* text-decoration: none; */
     color: #1f1a17;
     font-size: .125rem;
 }
-/* ul {
-    list-style: none;
-} */
 body {
     width: 100%;
     min-width: 650px;
@@ -164,6 +155,7 @@ body {
 }
 
 /* footer 区域 */
+
 footer {
     text-align: center;
     padding-top: .492188rem;/* 63px*/
@@ -284,6 +276,55 @@ footer .copyright {
     line-height: .1875rem;/* 24px*/
     color:#a59999;
 }
+
+/* tab-group */
+.tab-group ul {
+    width: 4.171875rem;/* 534px*/
+    height: .421875rem;/* 54px*/
+    margin: 0 auto .273438rem;
+    border-radius: .210938rem;/* 27px*/
+    box-shadow: 0rem .007813rem .007813rem #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.tab-group ul .nav-item {
+    font-size: .117188rem;
+    color: #34312f;
+}
+.tab-group ul .nav-item a {
+    padding: .078125rem .171875rem .0625rem;
+    border-radius: .132813rem;/* 17px*/
+    transition: all 1s ease;
+}
+.tab-group ul .nav-item:hover a {
+    background-color: #000;
+    color: #fff;
+}
+
+/* page 区域 */
+.page {
+    width: 100%;
+    height: 1.28125rem;/* 164px*/
+    padding-top: 1.109375rem;/* 142px*/
+}
+.page ul {
+    display: flex;
+    justify-content: center;
+}
+.page ul li a {
+    font-size: .109375rem;/* 14px*/
+    text-align: center;
+    padding: 0 .078125rem;/* 10px*/
+}
+.page ul li a i {
+    vertical-align: middle;
+}
+
+
+
+
 /* banner 轮播动画 */
 @keyframes swiper {
      0% {
